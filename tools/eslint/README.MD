@@ -1,6 +1,10 @@
 # 
 - disable all the linters / beautify / prettier  
 - `eslint --init`
+  - To check syntax, find problems, and enforce code style
+  - CommonJS (require/exports)
+  - None of these
+  - Node (Observe that these are checkboxes. Check with space bar.)
   - use popular style guide
   - standard
   - json
