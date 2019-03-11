@@ -30,15 +30,26 @@
   - `$ heroku addons:open mongolab`
   - `$ heroku config:get MONGODB_URI`
 
-- OR create database in [MLAB](https://mlab.com/)
-  - sign up
-  - create new MongoDB Deployment
+- OR create database in [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+  - sign up [MongoDB Atlas Signup](https://cloud.mongodb.com/user#/atlas/register/accountProfile)
+  - create a bogus organiztion and project until you reach the new cluster page
+  - create new MongoDB Cluster
     - cloud provider
-    - free account
-    - provide a name
-    - submit
-    - wait until the database is created
-    - add "admin" user database
+    - choose ireland
+    - make sure cluster tier is set to M0 (free)
+    - create cluster
+    - go to security
+    - click `add new user`
+    - add a username and password
+    - make sure user privileges are `read and write to any database
+    - go to ip whitelist
+    - add 0.0.0.0/0 as a ip
+    - go to overview
+    - click `connect`
+    - click `connect your aplication`
+    - copy the link that starts with `mongodb+srv`, replacing with the password chosen before
+    - replace the word test with the name of the database that you want to create
+    - this link is reusable in module 3 by changing the database name as a second cluster is paid
   - copy mongodb url to herokuapp settings config variables `MONGODB_URI`
   
 ```
