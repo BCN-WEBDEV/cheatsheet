@@ -48,6 +48,8 @@
     - click `connect`
     - click `connect your aplication`
     - copy the link that starts with `mongodb+srv`, replacing with the password chosen before
+    - replace the word test with the name of the database that you want to create
+    - this link is reusable in module 3 by changing the database name as a second cluster is paid
   - copy mongodb url to herokuapp settings config variables `MONGODB_URI`
   
 ```
