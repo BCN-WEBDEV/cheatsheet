@@ -274,8 +274,12 @@
 - boolean: true false
 - string: "hello world"
 - undefined
+- null
+- Symbol
+- BigInt
 - object
-- function
+  - array
+  - function
 
 ## declarations
 
