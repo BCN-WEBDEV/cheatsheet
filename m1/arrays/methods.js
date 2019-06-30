@@ -24,6 +24,7 @@ var arrayModified = array.map(function(elementOfArray, index, array) {
 //--- Expected output arrayModified = [2, 4, 6, 8, 10]
 //--- It will always create a new array with same lenght as the original array
 
+
 //--- FILTER
 var temperatures = [10, 15, 25, 35, 40];
 
@@ -31,6 +32,22 @@ var filteredArray = temperatures.filter(function(elementOfArray, index, temperat
   return elementOfArray > 30;
 });
 //--- Expected output filteredArray = [35, 40];
+
+
 //--- SPLICE
+var array = ['apple', 'banana', 'kiwi', 'melon'];
+var startingIndex = 2;
+var numberOfElementToEliminate = 1;
+var elementToAdd = 'avocado';
+var eliminatedElemenets = array.splice(startingIndex, numberOfElementToEliminate, elementToAdd)
+//--- Expected output:
+//--- eliminatedElemenets = ['kiwi'];
+//--- array = ['apple', 'banana', 'avocado', 'melon'];
+
 //--- REVERSE
+var array = ['apple', 'banana', 'kiwi', 'melon'];
+array.reverse();
+//--- Expected output array = ['melon', 'kiwi', 'banana', 'apple'];
+
+
 //--- SORT
