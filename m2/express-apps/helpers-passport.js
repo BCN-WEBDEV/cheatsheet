@@ -1,4 +1,4 @@
-// note: use in conjunction with https://github.com/ByronGBP/ih-cheat-sheet/blob/master/snippets/express-apps/passport.js
+// note: use in conjunction with https://github.com/BCN-WEBDEV/cheatsheet/blob/master/m2/express-apps/helpers-passport.js
 
 'use strict';
 
