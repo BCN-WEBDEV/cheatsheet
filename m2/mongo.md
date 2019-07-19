@@ -27,7 +27,7 @@
 
 #### Insert
 
-- `db.name_collection.insert(document)` Adds one document to the collection.
+- `db.name_collection.insertOne(document)` Adds one document to the collection.
 
 - `db.name_collection.insertMany([document1, document2, ...])` Adds one or more documents to the collection, always expects and array.
 
