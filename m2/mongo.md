@@ -49,3 +49,7 @@
 
 - `db.name_collection.find().sort({expression})` Sorts the retrived documents retrived from the database based on the expression. A value of 1 means sort ascending, a value of -1 means sort descending. An example could be `db.name_collection.find({name: 'foo'}).sort({number_of_books: 1)`.
 
+
+#### Links to documentation
+
+- [Methods](https://docs.mongodb.com/manual/reference/method/js-collection/)
