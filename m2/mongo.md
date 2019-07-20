@@ -54,3 +54,4 @@
 
 - [Methods](https://docs.mongodb.com/manual/reference/method/js-collection/)
 - [Operators](https://docs.mongodb.com/manual/reference/operator/query/)
+- [Update operators for arrays such as $ or $[]](https://docs.mongodb.com/manual/reference/operator/update-array/)
