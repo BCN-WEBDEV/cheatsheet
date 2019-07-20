@@ -252,7 +252,7 @@
   - `req.params` key/values of path placeholders (`/product/:productId/reviews/:reviewId`)
   - `req.query` key/values of query string (`/products/search?page=2&sort=price`)
 - res
-  - `res.status(404)` - set the status ccode of the response
+  - `res.status(404)` - set the status code of the response
   - `res.send('<h1>some text</h1>')` - just responde with a string
   - `res.redirect('/some/path')` - send a 302 response with a location (start with `/` to make it an absolute path)
   - `res.render('template-name', data)` - if data contains `.events`, you can use `{{#each events}}` in the template
