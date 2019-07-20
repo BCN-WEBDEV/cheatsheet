@@ -41,7 +41,7 @@
 
 #### Extra
 
-- `db.name_collection.find({expression}, {projection})` The projection allow us to especify what properties we want to retrivwe from the database. A value of 1 means that we want that property, a value of 0 means that we don't want that property. An example could be `db.name_collection.find({name: 'foo'}, {name: 1, _id: 0})`.
+- `db.name_collection.find({expression}, {projection})` The projection allow us to especify what properties we want to retrive from the database. A value of 1 means that we want that property, a value of 0 means that we don't want that property. An example could be `db.name_collection.find({name: 'foo'}, {name: 1, _id: 0})`.
 
 - `db.name_collection.find().pretty()` It formats the data retrived to be more readeble.
 
@@ -53,3 +53,4 @@
 #### Links to documentation
 
 - [Methods](https://docs.mongodb.com/manual/reference/method/js-collection/)
+- [Operator](https://docs.mongodb.com/manual/reference/operator/query/)
