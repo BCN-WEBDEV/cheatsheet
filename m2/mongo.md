@@ -53,4 +53,4 @@
 #### Links to documentation
 
 - [Methods](https://docs.mongodb.com/manual/reference/method/js-collection/)
-- [Operator](https://docs.mongodb.com/manual/reference/operator/query/)
+- [Operators](https://docs.mongodb.com/manual/reference/operator/query/)
