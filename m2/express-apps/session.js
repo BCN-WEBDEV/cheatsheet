@@ -12,12 +12,14 @@ app.use(session({
   }),
   secret: 'some-string',
   resave: true,
+  httpOnly: true,
   saveUninitialized: true,
   cookie: {
     maxAge: 24 * 60 * 60 * 1000
   }
 }));
 
+//option secure: true,
 
 // Makes the currentUser available in every page
   // note1: currentUser needs to match whatever you use in login/signup/logout routes
