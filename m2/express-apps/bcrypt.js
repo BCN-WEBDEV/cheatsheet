@@ -17,3 +17,7 @@ if (bcrypt.compareSync(password /* provided password */, user.password/* hashed 
 } else {
   res.redirect('/auth/login');
 }
+
+// Log out
+
+delete req.session.currentUser;
