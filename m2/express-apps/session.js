@@ -1,4 +1,4 @@
-// npm install --save express-session connect-mongo
+// npm install express-session connect-mongo
 
 const session = require('express-session');
 const MongoStore = require('connect-mongo')(session);
