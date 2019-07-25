@@ -11,7 +11,7 @@ const restaurantSchema = new Schema({
   location: {
     type: {
       type: String,
-      default: 'Point
+      default: 'Point'
     },
     coordinates: [Number]
   }
