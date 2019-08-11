@@ -77,7 +77,7 @@ npm install -g eslint
 
   `brew install mongodb`
 
-- On the root folder fo your computer, `cd ~`, type the next command 
+- On the root folder of your computer, `cd ~`, type the next command 
 
   `mkdir -p /data/db`
 
