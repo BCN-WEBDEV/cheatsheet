@@ -10,7 +10,7 @@ There is nothing to set up, everything should come with the pre-work.
 - GitHub
 - iTerm
 - zsh
-- VsCode
+- VSCode
 
 
 
