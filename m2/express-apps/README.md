@@ -1,5 +1,7 @@
 # Create and set up an app with express-generator
 
+[Here](https://github.com/BCN-WEBDEV/cheatsheet/tree/master/m2/express-apps/express-app-sample-setup) you will find an example of the result files after following these steps.
+
 ## Create the app with express generator
   
 Install express generator globally (only the first time you use it):
