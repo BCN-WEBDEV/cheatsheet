@@ -73,7 +73,7 @@ const createError = require('http-errors');
 
 ## Set up HBS
 
-Find in app.js "// view engine setup" and add line 1 and 7 from [HBS boilerplate](https://github.com/BCN-WEBDEV/cheatsheet/blob/master/m2/express-apps/hbs-views-and-layouts.js):
+Find in app.js "// view engine setup" and add line 1 and 7 from [HBS boilerplate](https://github.com/BCN-WEBDEV/cheatsheet/blob/master/m2/express-apps/hbs-views-and-layouts.js). It should be like this:
 
 ```js
 // view engine setup
@@ -95,7 +95,7 @@ Add at the top of app.js:
 const mongoose = require('mongoose');
 ```
 
-copy and paste lines 7-11 from the boilerplate and change the name of the database:
+copy and paste the code below and change the name of the database:
 ```js
 mongoose.connect('mongodb://localhost/database-name', {
   keepAlive: true,
