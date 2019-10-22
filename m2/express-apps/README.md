@@ -93,7 +93,7 @@ Add at the top of app.js:
 const mongoose = require('mongoose');
 ```
 
-copy and paste lines 7-11 from the boilerplate:
+copy and paste lines 7-11 from the boilerplate and change the name of the database:
 ```js
 mongoose.connect('mongodb://localhost/database-name', {
   keepAlive: true,
