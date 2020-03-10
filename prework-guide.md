@@ -42,6 +42,11 @@ If they come with the basic Rover, give them some feedback and if they have ques
 
 If the student comes with a very well done challenge and ask very basic questions, try to find out why they did it like this. Some students might find the solution on google and, even if googling is a very good skill, it will be helpful to know if they did not do it themselves.
 
+The average review time should take between 20/35 minutes.
+
+### Disclaimer ###
+This guideline is meant to be a **basic** guide. From here you can take what you need and improve it or make it more complex.
+
 Feel free to add or modify this document for future usage.
 
 Good luck!
