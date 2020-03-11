@@ -7,7 +7,7 @@ Once the students have handed in their prework, you'll see the links on the **co
 There you'll find the links of every student to their **HTML/CSS** and **JS**, along with a cell to write some comments about the review for each exercise.
 
 Once you start checking out someone's prework, fill the cell of that student's name with some color (at the control panel spreadsheet) to let other TA's know the review of that particular student has already begun and they will have to pick someone else. This is useful to avoid more than 1 TA reviewing the same prework.
-Once the review is done, fill the student's name cell with the original color (white)and fill the ***comments*** cell
+Once the review is done, fill the student's name cell with the original color (white)and fill the ***comments*** cell, then **if the student requests feedback, send it by mail unless they request a 1on1 feedback. In that case, they will have to book it and you can give them the feedback in person**
 
 ## Basic aspects to check about the prework ##
 
