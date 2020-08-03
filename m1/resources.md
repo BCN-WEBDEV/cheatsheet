@@ -19,7 +19,7 @@
 
 ### Accessibility
 
-- [Acessibility Checklist][https://a11yproject.com/checklist]
+- [Acessibility Checklist](https://a11yproject.com/checklist)
 - [Screen Reader](https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn)
 - [Tota11y](http://khan.github.io/tota11y)
 - [No Coffee](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-GB) Vision filter
